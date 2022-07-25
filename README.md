@@ -1,3 +1,13 @@
-# WebServer + RestServer
+# Steps to run the project
 
-Recuerden que deben ejecutar el ```npm install``` para reconstruir los modulos del programa
+1. Node (v16.15.0) should be installed on your system
+
+2. Install project dependencies with
+```bash
+npm install
+```
+
+3. Run the project with
+```bash
+npm start
+```
