@@ -39,7 +39,7 @@ class Server {
         this.app.use( express.json() );
 
         //Directorio publico, para hacer uso del html que se ubica en la carpeta public (encargado del front)
-        // this.app.use( express.static('public') );
+        this.app.use( express.static('public') );
     }
 
     routes() {
